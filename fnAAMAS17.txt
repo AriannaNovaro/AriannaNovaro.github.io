@@ -1,0 +1,3 @@
+Theorem 1 is only true for M-Nash, as the strategies are not part of the input for E-Nash and U-Nash and they are exponential in the size of an IG.
+
+In Proposition 2 it is assumed that for the issues not in J^s, the agents already have either a positive or negative consensus (i.e., they either think that the issues are all true or all false). Otherwise, the result would hold just for the issue-con goal and not the con goal.

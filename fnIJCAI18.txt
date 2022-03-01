@@ -1,0 +1,1 @@
+Lemma 1 is wrong, as the problem is PP-complete and not NP-complete. However, Theorem 4 is right as the guess is bounded by the fact that the quota can be at most n. Hardness can be proven from SAT by using a reduction analogous to that of Lemma 1.
