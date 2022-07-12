@@ -15,6 +15,7 @@ File: Layout CSS
          font-family: Ananda;
          size: 2em;
       }
+	 
 
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
@@ -378,3 +379,19 @@ table a, #comments a{background-color:inherit;}
 
 	.xxl{font-size:40px;}
 }
+
+.label {
+  border-radius: 5px;
+  color: white;
+  padding: 2px;
+  font-size: 9pt;
+}
+
+.journal {background-color: #c99108;}
+.journal::after  {content: "Journal";}
+.conference {background-color: 	#00326f;} 
+.conference::after  {content: "Conference";}
+.thesis {background-color: #F01864;} 
+.thesis::after  {content: "Thesis";}
+/*.danger {background-color: #f44336;} 
+.other {background-color: #e7e7e7; color: black;} */
