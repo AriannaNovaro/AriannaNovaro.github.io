@@ -383,15 +383,15 @@ table a, #comments a{background-color:inherit;}
 .label {
   border-radius: 5px;
   color: white;
-  padding: 2px;
+  padding: 4px;
   font-size: 9pt;
 }
 
 .journal {background-color: #c99108;}
-.journal::after  {content: "Journal";}
+.journal::after  {content: "J";}
 .conference {background-color: 	#00326f;} 
-.conference::after  {content: "Conference";}
+.conference::after  {content: "C";}
 .thesis {background-color: #F01864;} 
-.thesis::after  {content: "Thesis";}
+.thesis::after  {content: "T";}
 /*.danger {background-color: #f44336;} 
 .other {background-color: #e7e7e7; color: black;} */
