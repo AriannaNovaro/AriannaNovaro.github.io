@@ -10,12 +10,7 @@ File: Layout CSS
 
 @import url("fontawesome-4.3.0.min.css");
 @import url("framework.css");
-@font-face { font-family: Ananda; src: url('fonts/Ananda.TTF'); } 
-      h1 {
-         font-family: Ananda;
-         size: 2em;
-      }
-	 
+
 
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
@@ -379,7 +374,7 @@ table a, #comments a{background-color:inherit;}
 
 	.xxl{font-size:40px;}
 }
-
+/*
 .label {
   border-radius: 5px;
   color: white;
@@ -393,5 +388,27 @@ table a, #comments a{background-color:inherit;}
 .conference::after  {content: "C";}
 .thesis {background-color: #F01864;} 
 .thesis::after  {content: "T";}
-/*.danger {background-color: #f44336;} 
-.other {background-color: #e7e7e7; color: black;} */
+*/
+
+h5 {
+  width: 70%;
+  margin: .7em auto;
+  overflow: hidden;
+  text-align: center;
+  font-weight:300;
+}
+h5:before, h5:after {
+  content: "";
+  display: inline-block;
+  width: 50%;
+  margin: 0 .5em 0 -55%;
+  vertical-align: middle;
+  border-bottom: 1px solid;
+}
+h5:after {
+  margin: 0 -55% 0 .5em;
+}
+span {
+  display: inline-block;
+  vertical-align: middle;
+}
